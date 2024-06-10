@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5C53AD302C1727B200922DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53AD2F2C1727B200922DCC /* AppDelegate.swift */; };
-		5C53AD322C1727B200922DCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53AD312C1727B200922DCC /* SceneDelegate.swift */; };
-		5C53AD342C1727B200922DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53AD332C1727B200922DCC /* ViewController.swift */; };
-		5C53AD372C1727B200922DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C53AD352C1727B200922DCC /* Main.storyboard */; };
 		5C53AD392C1727B300922DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C53AD382C1727B300922DCC /* Assets.xcassets */; };
 		5C53AD3C2C1727B300922DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C53AD3A2C1727B300922DCC /* LaunchScreen.storyboard */; };
 		5C53AD472C1727B300922DCC /* SampleVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53AD462C1727B300922DCC /* SampleVIPERTests.swift */; };
 		5C53AD512C1727B300922DCC /* SampleVIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53AD502C1727B300922DCC /* SampleVIPERUITests.swift */; };
 		5C53AD532C1727B300922DCC /* SampleVIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53AD522C1727B300922DCC /* SampleVIPERUITestsLaunchTests.swift */; };
+		5CA089282C172FB00092FEA9 /* AppDelegate+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089272C172FB00092FEA9 /* AppDelegate+Notifications.swift */; };
+		5CA0892A2C172FE70092FEA9 /* AppDelegate+ATT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089292C172FE70092FEA9 /* AppDelegate+ATT.swift */; };
+		5CA0892C2C172FFE0092FEA9 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0892B2C172FFE0092FEA9 /* AppRouter.swift */; };
+		5CA089402C1730F50092FEA9 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA089332C1730F50092FEA9 /* Roboto-Medium.ttf */; };
+		5CA089422C1730F50092FEA9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA089352C1730F50092FEA9 /* Roboto-Regular.ttf */; };
+		5CA089462C1730F50092FEA9 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5CA089392C1730F50092FEA9 /* LICENSE.txt */; };
+		5CA089492C1730F50092FEA9 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0893C2C1730F50092FEA9 /* Roboto-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +42,6 @@
 /* Begin PBXFileReference section */
 		5C53AD2C2C1727B200922DCC /* SampleVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C53AD2F2C1727B200922DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C53AD312C1727B200922DCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C53AD332C1727B200922DCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5C53AD362C1727B200922DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C53AD382C1727B300922DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C53AD3B2C1727B300922DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C53AD3D2C1727B300922DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,13 @@
 		5C53AD4C2C1727B300922DCC /* SampleVIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleVIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C53AD502C1727B300922DCC /* SampleVIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVIPERUITests.swift; sourceTree = "<group>"; };
 		5C53AD522C1727B300922DCC /* SampleVIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5CA089272C172FB00092FEA9 /* AppDelegate+Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Notifications.swift"; sourceTree = "<group>"; };
+		5CA089292C172FE70092FEA9 /* AppDelegate+ATT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+ATT.swift"; sourceTree = "<group>"; };
+		5CA0892B2C172FFE0092FEA9 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		5CA089332C1730F50092FEA9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		5CA089352C1730F50092FEA9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		5CA089392C1730F50092FEA9 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		5CA0893C2C1730F50092FEA9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +107,9 @@
 		5C53AD2E2C1727B200922DCC /* SampleVIPER */ = {
 			isa = PBXGroup;
 			children = (
-				5C53AD2F2C1727B200922DCC /* AppDelegate.swift */,
-				5C53AD312C1727B200922DCC /* SceneDelegate.swift */,
-				5C53AD332C1727B200922DCC /* ViewController.swift */,
-				5C53AD352C1727B200922DCC /* Main.storyboard */,
-				5C53AD382C1727B300922DCC /* Assets.xcassets */,
-				5C53AD3A2C1727B300922DCC /* LaunchScreen.storyboard */,
+				5CA089262C172F990092FEA9 /* Application */,
+				5CA0892E2C1730B10092FEA9 /* Theme */,
+				5CA0892D2C17305F0092FEA9 /* SupportingFiles */,
 				5C53AD3D2C1727B300922DCC /* Info.plist */,
 			);
 			path = SampleVIPER;
@@ -125,6 +130,53 @@
 				5C53AD522C1727B300922DCC /* SampleVIPERUITestsLaunchTests.swift */,
 			);
 			path = SampleVIPERUITests;
+			sourceTree = "<group>";
+		};
+		5CA089262C172F990092FEA9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5C53AD2F2C1727B200922DCC /* AppDelegate.swift */,
+				5CA089272C172FB00092FEA9 /* AppDelegate+Notifications.swift */,
+				5CA089292C172FE70092FEA9 /* AppDelegate+ATT.swift */,
+				5CA0892B2C172FFE0092FEA9 /* AppRouter.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5CA0892D2C17305F0092FEA9 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5C53AD382C1727B300922DCC /* Assets.xcassets */,
+				5C53AD3A2C1727B300922DCC /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5CA0892E2C1730B10092FEA9 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				5CA0892F2C1730B80092FEA9 /* Fonts */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		5CA0892F2C1730B80092FEA9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5CA089302C1730C50092FEA9 /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5CA089302C1730C50092FEA9 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				5CA089392C1730F50092FEA9 /* LICENSE.txt */,
+				5CA0893C2C1730F50092FEA9 /* Roboto-Bold.ttf */,
+				5CA089332C1730F50092FEA9 /* Roboto-Medium.ttf */,
+				5CA089352C1730F50092FEA9 /* Roboto-Regular.ttf */,
+			);
+			path = Roboto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +283,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA089462C1730F50092FEA9 /* LICENSE.txt in Resources */,
+				5CA089492C1730F50092FEA9 /* Roboto-Bold.ttf in Resources */,
 				5C53AD3C2C1727B300922DCC /* LaunchScreen.storyboard in Resources */,
 				5C53AD392C1727B300922DCC /* Assets.xcassets in Resources */,
-				5C53AD372C1727B200922DCC /* Main.storyboard in Resources */,
+				5CA089422C1730F50092FEA9 /* Roboto-Regular.ttf in Resources */,
+				5CA089402C1730F50092FEA9 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C53AD342C1727B200922DCC /* ViewController.swift in Sources */,
+				5CA0892A2C172FE70092FEA9 /* AppDelegate+ATT.swift in Sources */,
 				5C53AD302C1727B200922DCC /* AppDelegate.swift in Sources */,
-				5C53AD322C1727B200922DCC /* SceneDelegate.swift in Sources */,
+				5CA0892C2C172FFE0092FEA9 /* AppRouter.swift in Sources */,
+				5CA089282C172FB00092FEA9 /* AppDelegate+Notifications.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5C53AD352C1727B200922DCC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C53AD362C1727B200922DCC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5C53AD3A2C1727B300922DCC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -446,9 +494,9 @@
 				INFOPLIST_FILE = SampleVIPER/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,9 +504,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.oguzzyalcin.SampleVIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,9 +524,9 @@
 				INFOPLIST_FILE = SampleVIPER/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,9 +534,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.oguzzyalcin.SampleVIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
