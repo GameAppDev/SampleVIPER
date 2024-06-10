@@ -7,10 +7,6 @@
 
 import UIKit
 
-protocol IAppRouter: AnyObject {
-    func openApp()
-}
-
 open class AppRouter {
     
     static let shared = AppRouter()
@@ -22,7 +18,14 @@ open class AppRouter {
         return UIApplication.shared.delegate?.window ?? UIWindow(frame: UIScreen.main.bounds)
     }
     
-    // MARK: Methods
+    // MARK: Public Methods
+    func openApp() {
+        setActiveNavigationController(
+            with: UIViewController()
+        )
+    }
+    
+    // MARK: Private Methods
     private func setActiveNavigationController(with rootVC: UIViewController) {
         let navController = UINavigationController(rootViewController: rootVC)
         
@@ -33,14 +36,5 @@ open class AppRouter {
         
         AppRouter.window?.rootViewController = navController
         AppRouter.window?.makeKeyAndVisible()
-    }
-}
-
-extension AppRouter: IAppRouter {
-    
-    func openApp() {
-        setActiveNavigationController(
-            with: UIViewController()
-        )
     }
 }

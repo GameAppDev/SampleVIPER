@@ -20,6 +20,15 @@
 		5CA089422C1730F50092FEA9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA089352C1730F50092FEA9 /* Roboto-Regular.ttf */; };
 		5CA089462C1730F50092FEA9 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5CA089392C1730F50092FEA9 /* LICENSE.txt */; };
 		5CA089492C1730F50092FEA9 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0893C2C1730F50092FEA9 /* Roboto-Bold.ttf */; };
+		5CA0894C2C17335B0092FEA9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0894B2C17335B0092FEA9 /* Colors.swift */; };
+		5CA089502C17339B0092FEA9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0894F2C17339B0092FEA9 /* Fonts.swift */; };
+		5CA089552C1734490092FEA9 /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA089532C1734490092FEA9 /* CustomNavigationBar.xib */; };
+		5CA089562C1734490092FEA9 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089542C1734490092FEA9 /* CustomNavigationBar.swift */; };
+		5CA089592C1735640092FEA9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089582C1735640092FEA9 /* BaseViewController.swift */; };
+		5CA0895D2C1736800092FEA9 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0895C2C1736800092FEA9 /* UIViewController+Ext.swift */; };
+		5CA0895F2C1737400092FEA9 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0895E2C1737400092FEA9 /* UIView+Ext.swift */; };
+		5CA089612C1737690092FEA9 /* NSObject+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089602C1737690092FEA9 /* NSObject+Ext.swift */; };
+		5CA089632C1737970092FEA9 /* BaseContractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089622C1737970092FEA9 /* BaseContractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +66,15 @@
 		5CA089352C1730F50092FEA9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		5CA089392C1730F50092FEA9 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		5CA0893C2C1730F50092FEA9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		5CA0894B2C17335B0092FEA9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5CA0894F2C17339B0092FEA9 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		5CA089532C1734490092FEA9 /* CustomNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
+		5CA089542C1734490092FEA9 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		5CA089582C1735640092FEA9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5CA0895C2C1736800092FEA9 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		5CA0895E2C1737400092FEA9 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		5CA089602C1737690092FEA9 /* NSObject+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Ext.swift"; sourceTree = "<group>"; };
+		5CA089622C1737970092FEA9 /* BaseContractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseContractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				5CA089262C172F990092FEA9 /* Application */,
+				5CA0895A2C17363A0092FEA9 /* Utils */,
+				5CA089512C17341E0092FEA9 /* Commons */,
 				5CA0892E2C1730B10092FEA9 /* Theme */,
 				5CA0892D2C17305F0092FEA9 /* SupportingFiles */,
 				5C53AD3D2C1727B300922DCC /* Info.plist */,
@@ -156,6 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				5CA0892F2C1730B80092FEA9 /* Fonts */,
+				5CA0894B2C17335B0092FEA9 /* Colors.swift */,
+				5CA0894F2C17339B0092FEA9 /* Fonts.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -177,6 +199,51 @@
 				5CA089352C1730F50092FEA9 /* Roboto-Regular.ttf */,
 			);
 			path = Roboto;
+			sourceTree = "<group>";
+		};
+		5CA089512C17341E0092FEA9 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				5CA089572C1735570092FEA9 /* Base */,
+				5CA089522C1734250092FEA9 /* NavigationBar */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		5CA089522C1734250092FEA9 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				5CA089542C1734490092FEA9 /* CustomNavigationBar.swift */,
+				5CA089532C1734490092FEA9 /* CustomNavigationBar.xib */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		5CA089572C1735570092FEA9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5CA089582C1735640092FEA9 /* BaseViewController.swift */,
+				5CA089622C1737970092FEA9 /* BaseContractor.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5CA0895A2C17363A0092FEA9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5CA0895B2C17363F0092FEA9 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5CA0895B2C17363F0092FEA9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5CA0895C2C1736800092FEA9 /* UIViewController+Ext.swift */,
+				5CA0895E2C1737400092FEA9 /* UIView+Ext.swift */,
+				5CA089602C1737690092FEA9 /* NSObject+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +355,7 @@
 				5C53AD3C2C1727B300922DCC /* LaunchScreen.storyboard in Resources */,
 				5C53AD392C1727B300922DCC /* Assets.xcassets in Resources */,
 				5CA089422C1730F50092FEA9 /* Roboto-Regular.ttf in Resources */,
+				5CA089552C1734490092FEA9 /* CustomNavigationBar.xib in Resources */,
 				5CA089402C1730F50092FEA9 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,10 +381,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA089612C1737690092FEA9 /* NSObject+Ext.swift in Sources */,
+				5CA089502C17339B0092FEA9 /* Fonts.swift in Sources */,
 				5CA0892A2C172FE70092FEA9 /* AppDelegate+ATT.swift in Sources */,
+				5CA0895F2C1737400092FEA9 /* UIView+Ext.swift in Sources */,
+				5CA0894C2C17335B0092FEA9 /* Colors.swift in Sources */,
 				5C53AD302C1727B200922DCC /* AppDelegate.swift in Sources */,
 				5CA0892C2C172FFE0092FEA9 /* AppRouter.swift in Sources */,
+				5CA089592C1735640092FEA9 /* BaseViewController.swift in Sources */,
 				5CA089282C172FB00092FEA9 /* AppDelegate+Notifications.swift in Sources */,
+				5CA089632C1737970092FEA9 /* BaseContractor.swift in Sources */,
+				5CA089562C1734490092FEA9 /* CustomNavigationBar.swift in Sources */,
+				5CA0895D2C1736800092FEA9 /* UIViewController+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

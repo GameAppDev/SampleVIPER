@@ -76,7 +76,5 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         _ center: UNUserNotificationCenter,
         didReceive response: UNNotificationResponse,
         withCompletionHandler completionHandler: @escaping () -> Void
-    ) {
-        // TODO: Handle Notification
-    }
+    ) { }
 }
