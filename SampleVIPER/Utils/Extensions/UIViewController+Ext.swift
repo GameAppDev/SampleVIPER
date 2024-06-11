@@ -45,3 +45,18 @@ extension UIViewController {
         navBarView.layoutIfNeeded()
     }
 }
+
+// MARK: Navigation
+extension UIViewController {
+    
+    public func presentWithNavigationController(
+        _ viewController: UIViewController,
+        animated: Bool = true,
+        completion: (() -> Void)? = nil
+    ) {
+        let navigationController = UINavigationController(rootViewController: viewController)
+        navigationController.modalPresentationStyle = .fullScreen
+        navigationController.navigationBar.barStyle = self.navigationController?.navigationBar.barStyle ?? .default
+        present(navigationController, animated: animated, completion: completion)
+    }
+}

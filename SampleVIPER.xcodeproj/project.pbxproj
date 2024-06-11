@@ -20,6 +20,19 @@
 		5C5FEEFF2C1840BC002C3A7A /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEEFE2C1840BC002C3A7A /* SearchInteractor.swift */; };
 		5C5FEF022C1840C9002C3A7A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF002C1840C9002C3A7A /* SearchViewController.swift */; };
 		5C5FEF032C1840C9002C3A7A /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C5FEF012C1840C9002C3A7A /* SearchViewController.xib */; };
+		5C5FEF062C18466B002C3A7A /* NewsGetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF052C18466B002C3A7A /* NewsGetRequest.swift */; };
+		5C5FEF082C184717002C3A7A /* NewsGetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF072C184717002C3A7A /* NewsGetResponse.swift */; };
+		5C5FEF0A2C1848C7002C3A7A /* Codable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF092C1848C7002C3A7A /* Codable+Ext.swift */; };
+		5C5FEF0E2C185519002C3A7A /* ListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF0D2C185519002C3A7A /* ListBuilder.swift */; };
+		5C5FEF102C185521002C3A7A /* ListContractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF0F2C185521002C3A7A /* ListContractor.swift */; };
+		5C5FEF122C185528002C3A7A /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF112C185528002C3A7A /* ListRouter.swift */; };
+		5C5FEF142C185531002C3A7A /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF132C185531002C3A7A /* ListPresenter.swift */; };
+		5C5FEF162C18553A002C3A7A /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF152C18553A002C3A7A /* ListInteractor.swift */; };
+		5C5FEF192C185543002C3A7A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF172C185543002C3A7A /* ListViewController.swift */; };
+		5C5FEF1A2C185543002C3A7A /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C5FEF182C185543002C3A7A /* ListViewController.xib */; };
+		5C5FEF1F2C186124002C3A7A /* NewsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF1D2C186124002C3A7A /* NewsListTableViewCell.swift */; };
+		5C5FEF202C186124002C3A7A /* NewsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C5FEF1E2C186124002C3A7A /* NewsListTableViewCell.xib */; };
+		5C5FEF222C186459002C3A7A /* ListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF212C186459002C3A7A /* ListTableViewAdapter.swift */; };
 		5CA089282C172FB00092FEA9 /* AppDelegate+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089272C172FB00092FEA9 /* AppDelegate+Notifications.swift */; };
 		5CA0892A2C172FE70092FEA9 /* AppDelegate+ATT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089292C172FE70092FEA9 /* AppDelegate+ATT.swift */; };
 		5CA0892C2C172FFE0092FEA9 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0892B2C172FFE0092FEA9 /* AppRouter.swift */; };
@@ -42,6 +55,10 @@
 		5CA089752C173C800092FEA9 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089742C173C800092FEA9 /* NetworkRouter.swift */; };
 		5CA089772C173D1A0092FEA9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089762C173D1A0092FEA9 /* Models.swift */; };
 		5CA089792C173D440092FEA9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089782C173D440092FEA9 /* NetworkManager.swift */; };
+		5CC1E5BF2C18731D00573CB6 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1E5BE2C18731D00573CB6 /* UITableView+Ext.swift */; };
+		5CC1E5C22C1873B800573CB6 /* ImageDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1E5C12C1873B800573CB6 /* ImageDownloadManager.swift */; };
+		5CC1E5C52C1873F900573CB6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5CC1E5C42C1873F900573CB6 /* Kingfisher */; };
+		5CC1E5C72C18762500573CB6 /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1E5C62C18762500573CB6 /* Array+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +96,19 @@
 		5C5FEEFE2C1840BC002C3A7A /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
 		5C5FEF002C1840C9002C3A7A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		5C5FEF012C1840C9002C3A7A /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		5C5FEF052C18466B002C3A7A /* NewsGetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsGetRequest.swift; sourceTree = "<group>"; };
+		5C5FEF072C184717002C3A7A /* NewsGetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsGetResponse.swift; sourceTree = "<group>"; };
+		5C5FEF092C1848C7002C3A7A /* Codable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Ext.swift"; sourceTree = "<group>"; };
+		5C5FEF0D2C185519002C3A7A /* ListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBuilder.swift; sourceTree = "<group>"; };
+		5C5FEF0F2C185521002C3A7A /* ListContractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContractor.swift; sourceTree = "<group>"; };
+		5C5FEF112C185528002C3A7A /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		5C5FEF132C185531002C3A7A /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		5C5FEF152C18553A002C3A7A /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		5C5FEF172C185543002C3A7A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		5C5FEF182C185543002C3A7A /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		5C5FEF1D2C186124002C3A7A /* NewsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewCell.swift; sourceTree = "<group>"; };
+		5C5FEF1E2C186124002C3A7A /* NewsListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsListTableViewCell.xib; sourceTree = "<group>"; };
+		5C5FEF212C186459002C3A7A /* ListTableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewAdapter.swift; sourceTree = "<group>"; };
 		5CA089272C172FB00092FEA9 /* AppDelegate+Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Notifications.swift"; sourceTree = "<group>"; };
 		5CA089292C172FE70092FEA9 /* AppDelegate+ATT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+ATT.swift"; sourceTree = "<group>"; };
 		5CA0892B2C172FFE0092FEA9 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
@@ -99,6 +129,9 @@
 		5CA089742C173C800092FEA9 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
 		5CA089762C173D1A0092FEA9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		5CA089782C173D440092FEA9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5CC1E5BE2C18731D00573CB6 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		5CC1E5C12C1873B800573CB6 /* ImageDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadManager.swift; sourceTree = "<group>"; };
+		5CC1E5C62C18762500573CB6 /* Array+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC1E5C52C1873F900573CB6 /* Kingfisher in Frameworks */,
 				5CA0896E2C173C4C0092FEA9 /* Alamofire in Frameworks */,
 				5CA089702C173C4C0092FEA9 /* AlamofireDynamic in Frameworks */,
 			);
@@ -183,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				5C5FEEF22C18402F002C3A7A /* Search */,
+				5C5FEF0B2C1854FD002C3A7A /* List */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -191,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				5C5FEEF32C184048002C3A7A /* Builder */,
+				5C5FEF042C18463B002C3A7A /* Entity */,
 				5C5FEEFA2C1840A5002C3A7A /* SearchContractor.swift */,
 				5C5FEEF82C184097002C3A7A /* SearchRouter.swift */,
 				5C5FEEFC2C1840B1002C3A7A /* SearchPresenter.swift */,
@@ -207,6 +243,56 @@
 				5C5FEEF42C184081002C3A7A /* SearchBuilder.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		5C5FEF042C18463B002C3A7A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5C5FEF052C18466B002C3A7A /* NewsGetRequest.swift */,
+				5C5FEF072C184717002C3A7A /* NewsGetResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5C5FEF0B2C1854FD002C3A7A /* List */ = {
+			isa = PBXGroup;
+			children = (
+				5C5FEF0C2C18550E002C3A7A /* Builder */,
+				5C5FEF1B2C18604F002C3A7A /* Adapter */,
+				5C5FEF0F2C185521002C3A7A /* ListContractor.swift */,
+				5C5FEF112C185528002C3A7A /* ListRouter.swift */,
+				5C5FEF132C185531002C3A7A /* ListPresenter.swift */,
+				5C5FEF152C18553A002C3A7A /* ListInteractor.swift */,
+				5C5FEF172C185543002C3A7A /* ListViewController.swift */,
+				5C5FEF182C185543002C3A7A /* ListViewController.xib */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		5C5FEF0C2C18550E002C3A7A /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				5C5FEF0D2C185519002C3A7A /* ListBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		5C5FEF1B2C18604F002C3A7A /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				5C5FEF1C2C186085002C3A7A /* TVCell */,
+				5C5FEF212C186459002C3A7A /* ListTableViewAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		5C5FEF1C2C186085002C3A7A /* TVCell */ = {
+			isa = PBXGroup;
+			children = (
+				5C5FEF1D2C186124002C3A7A /* NewsListTableViewCell.swift */,
+				5C5FEF1E2C186124002C3A7A /* NewsListTableViewCell.xib */,
+			);
+			path = TVCell;
 			sourceTree = "<group>";
 		};
 		5CA089262C172F990092FEA9 /* Application */ = {
@@ -288,6 +374,7 @@
 		5CA0895A2C17363A0092FEA9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5CC1E5C02C1873AC00573CB6 /* ImageDownloadManager */,
 				5CA089712C173C5F0092FEA9 /* Network */,
 				5CA0895B2C17363F0092FEA9 /* Extensions */,
 			);
@@ -300,6 +387,9 @@
 				5CA0895C2C1736800092FEA9 /* UIViewController+Ext.swift */,
 				5CA0895E2C1737400092FEA9 /* UIView+Ext.swift */,
 				5CA089602C1737690092FEA9 /* NSObject+Ext.swift */,
+				5C5FEF092C1848C7002C3A7A /* Codable+Ext.swift */,
+				5CC1E5BE2C18731D00573CB6 /* UITableView+Ext.swift */,
+				5CC1E5C62C18762500573CB6 /* Array+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -313,6 +403,14 @@
 				5CA089762C173D1A0092FEA9 /* Models.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		5CC1E5C02C1873AC00573CB6 /* ImageDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				5CC1E5C12C1873B800573CB6 /* ImageDownloadManager.swift */,
+			);
+			path = ImageDownloadManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +432,7 @@
 			packageProductDependencies = (
 				5CA0896D2C173C4C0092FEA9 /* Alamofire */,
 				5CA0896F2C173C4C0092FEA9 /* AlamofireDynamic */,
+				5CC1E5C42C1873F900573CB6 /* Kingfisher */,
 			);
 			productName = SampleVIPER;
 			productReference = 5C53AD2C2C1727B200922DCC /* SampleVIPER.app */;
@@ -409,6 +508,7 @@
 			mainGroup = 5C53AD232C1727B200922DCC;
 			packageReferences = (
 				5CA0896C2C173C4C0092FEA9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				5CC1E5C32C1873F900573CB6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 5C53AD2D2C1727B200922DCC /* Products */;
 			projectDirPath = "";
@@ -426,11 +526,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5FEF202C186124002C3A7A /* NewsListTableViewCell.xib in Resources */,
 				5CA089462C1730F50092FEA9 /* LICENSE.txt in Resources */,
 				5CA089492C1730F50092FEA9 /* Roboto-Bold.ttf in Resources */,
 				5C53AD3C2C1727B300922DCC /* LaunchScreen.storyboard in Resources */,
 				5C53AD392C1727B300922DCC /* Assets.xcassets in Resources */,
 				5CA089422C1730F50092FEA9 /* Roboto-Regular.ttf in Resources */,
+				5C5FEF1A2C185543002C3A7A /* ListViewController.xib in Resources */,
 				5CA089552C1734490092FEA9 /* CustomNavigationBar.xib in Resources */,
 				5C5FEF032C1840C9002C3A7A /* SearchViewController.xib in Resources */,
 				5CA089402C1730F50092FEA9 /* Roboto-Medium.ttf in Resources */,
@@ -458,27 +560,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5FEF162C18553A002C3A7A /* ListInteractor.swift in Sources */,
+				5CC1E5BF2C18731D00573CB6 /* UITableView+Ext.swift in Sources */,
 				5CA089612C1737690092FEA9 /* NSObject+Ext.swift in Sources */,
+				5C5FEF192C185543002C3A7A /* ListViewController.swift in Sources */,
+				5C5FEF062C18466B002C3A7A /* NewsGetRequest.swift in Sources */,
 				5CA089502C17339B0092FEA9 /* Fonts.swift in Sources */,
 				5C5FEEFD2C1840B1002C3A7A /* SearchPresenter.swift in Sources */,
 				5CA0892A2C172FE70092FEA9 /* AppDelegate+ATT.swift in Sources */,
 				5CA089732C173C6F0092FEA9 /* Networkable.swift in Sources */,
 				5CA089792C173D440092FEA9 /* NetworkManager.swift in Sources */,
 				5C5FEEFF2C1840BC002C3A7A /* SearchInteractor.swift in Sources */,
+				5C5FEF122C185528002C3A7A /* ListRouter.swift in Sources */,
 				5C5FEEFB2C1840A5002C3A7A /* SearchContractor.swift in Sources */,
+				5CC1E5C22C1873B800573CB6 /* ImageDownloadManager.swift in Sources */,
 				5CA0895F2C1737400092FEA9 /* UIView+Ext.swift in Sources */,
 				5CA0894C2C17335B0092FEA9 /* Colors.swift in Sources */,
+				5C5FEF0E2C185519002C3A7A /* ListBuilder.swift in Sources */,
+				5C5FEF222C186459002C3A7A /* ListTableViewAdapter.swift in Sources */,
 				5C53AD302C1727B200922DCC /* AppDelegate.swift in Sources */,
 				5CA0892C2C172FFE0092FEA9 /* AppRouter.swift in Sources */,
 				5C5FEF022C1840C9002C3A7A /* SearchViewController.swift in Sources */,
+				5C5FEF1F2C186124002C3A7A /* NewsListTableViewCell.swift in Sources */,
 				5CA089592C1735640092FEA9 /* BaseViewController.swift in Sources */,
 				5CA089772C173D1A0092FEA9 /* Models.swift in Sources */,
 				5CA089282C172FB00092FEA9 /* AppDelegate+Notifications.swift in Sources */,
 				5CA089632C1737970092FEA9 /* BaseContractor.swift in Sources */,
+				5C5FEF102C185521002C3A7A /* ListContractor.swift in Sources */,
 				5C5FEEF52C184081002C3A7A /* SearchBuilder.swift in Sources */,
 				5CA089562C1734490092FEA9 /* CustomNavigationBar.swift in Sources */,
+				5C5FEF082C184717002C3A7A /* NewsGetResponse.swift in Sources */,
+				5C5FEF142C185531002C3A7A /* ListPresenter.swift in Sources */,
 				5CA0895D2C1736800092FEA9 /* UIViewController+Ext.swift in Sources */,
 				5C5FEEF92C184097002C3A7A /* SearchRouter.swift in Sources */,
+				5CC1E5C72C18762500573CB6 /* Array+Ext.swift in Sources */,
+				5C5FEF0A2C1848C7002C3A7A /* Codable+Ext.swift in Sources */,
 				5CA089752C173C800092FEA9 /* NetworkRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -828,6 +944,14 @@
 				minimumVersion = 5.9.1;
 			};
 		};
+		5CC1E5C32C1873F900573CB6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -840,6 +964,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5CA0896C2C173C4C0092FEA9 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = AlamofireDynamic;
+		};
+		5CC1E5C42C1873F900573CB6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CC1E5C32C1873F900573CB6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

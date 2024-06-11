@@ -14,6 +14,7 @@ struct SearchBuilder {
         let viewController = SearchViewController()
         let presenter = SearchPresenter()
         let interactor = SearchInteractor()
+        let networkManager = NetworkManager()
         
         router.view = viewController
         
@@ -25,6 +26,7 @@ struct SearchBuilder {
         presenter.interactor = interactor
         
         interactor.presenter = presenter
+        interactor.networkManager = networkManager
         
         return viewController
     }

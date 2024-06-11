@@ -17,7 +17,9 @@ final class SearchPresenter {
 
 extension SearchPresenter: ISearchViewToPresenter {
     
-    func viewDidLoad() { }
+    func viewDidLoad() {
+        view?.setSearchButton(title: "Search")
+    }
     
     func viewWillAppear() {
         view?.setNavigationBar(
@@ -26,6 +28,34 @@ extension SearchPresenter: ISearchViewToPresenter {
             rightButton: nil
         )
     }
+    
+    func viewWillLayoutSubviews() {
+        view?.setupSearchTextField()
+        view?.setupSearchButton()
+    }
+    
+    func handleSearchButtonClicked(searchedKey: String?) {
+        guard let searchedKey else { return }
+        
+        view?.showIndicatorView()
+        interactor?.fetchNews(searchedKey: searchedKey)
+    }
 }
 
-extension SearchPresenter: ISearchInteractorToPresenter { }
+extension SearchPresenter: ISearchInteractorToPresenter {
+    
+    func newsFetchedOnSuccess(news: [NewsModel]?) {
+        view?.hideIndicatorView()
+        guard let news, news.isNotEmpty else { return }
+        router?.navigateToList(news: news)
+    }
+    
+    func newsFetchedOnError(statusCode: Int?, message: String?) {
+        view?.hideIndicatorView()
+        view?.showPopup(
+            identifier: "id",
+            content: message ?? "error",
+            dismissAfterButtonClick: true
+        )
+    }
+}

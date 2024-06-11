@@ -18,10 +18,10 @@ open class AppRouter {
         return UIApplication.shared.delegate?.window ?? UIWindow(frame: UIScreen.main.bounds)
     }
     
-    // MARK: Public Methods
+    // MARK: Methods
     func openApp() {
         setActiveNavigationController(
-            with: SearchRouter.returnVC()
+            with: SearchRouter.getModuleVC()
         )
     }
     

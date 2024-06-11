@@ -13,9 +13,16 @@ final class SearchRouter {
     weak var view: UIViewController?
     
     // MARK: Static Method
-    static func returnVC() -> UIViewController {
-        return SearchBuilder.buildModule()
+    static func getModuleVC() -> UIViewController {
+        SearchBuilder.buildModule()
     }
 }
 
-extension SearchRouter: ISearchPresenterToRouter { }
+extension SearchRouter: ISearchPresenterToRouter {
+    
+    func navigateToList(news: [NewsModel]) {
+        view?.presentWithNavigationController(
+            ListRouter.getModuleVC(news: news)
+        )
+    }
+}

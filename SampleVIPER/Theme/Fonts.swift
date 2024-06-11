@@ -11,6 +11,13 @@ extension UIFont {
     
     // MARK: NavigationBar
     static let navbarTitleFont = UIFont.robotoBold24
+    
+    // MARK: Search
+    static let searchTFTextFont      = UIFont.robotoRegular18
+    static let searchButtonTitleFont = UIFont.robotoMedium18
+    
+    // MARK: List
+    static let listCellTextFont = UIFont.robotoRegular18
 }
 
 extension UIFont {

@@ -9,8 +9,22 @@ import UIKit
 
 final class SearchViewController: BaseViewController {
     
+    // MARK: Outlets
+    @IBOutlet private weak var searchTextField: UITextField!
+    @IBOutlet private weak var searchButton: UIButton!
+    
     // MARK: Properties
     var presenter: ISearchViewToPresenter?
+}
+
+// MARK: Actions
+extension SearchViewController {
+    
+    @IBAction private func searchButtonClicked(_ sender: UIButton) {
+        presenter?.handleSearchButtonClicked(
+            searchedKey: searchTextField.text
+        )
+    }
 }
 
 extension SearchViewController: ISearchPresenterToView {
@@ -25,6 +39,23 @@ extension SearchViewController: ISearchPresenterToView {
             leftButton: leftButton,
             rightButton: rightButton
         )
+    }
+    
+    func setupSearchTextField() {
+        searchTextField.backgroundColor = .searchTFBGColor
+        searchTextField.textColor = .searchTFTextColor
+        searchTextField.tintColor = .searchTFTextColor
+        searchTextField.font = .searchTFTextFont
+    }
+    
+    func setupSearchButton() {
+        searchButton.backgroundColor = .searchButtonBGColor
+        searchButton.setTitleColor(.searchButtonTitleColor, for: .normal)
+        searchButton.titleLabel?.font = .searchButtonTitleFont
+    }
+    
+    func setSearchButton(title: String) {
+        searchButton.setTitle(title, for: .normal)
     }
 }
 
@@ -41,5 +72,11 @@ extension SearchViewController {
         super.viewWillAppear(animated)
         
         presenter?.viewWillAppear?()
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+        presenter?.viewWillLayoutSubviews?()
     }
 }

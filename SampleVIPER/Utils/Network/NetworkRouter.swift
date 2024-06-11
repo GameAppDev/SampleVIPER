@@ -11,7 +11,7 @@ import Alamofire
 enum NetworkRouter {
     
     case getGitHubRepos
-    case getNews
+    case getNews(request: NewsGetRequest?)
     
     private var baseURL: String {
         switch self {
@@ -27,6 +27,16 @@ enum NetworkRouter {
         }
     }
     
+    var url: String {
+        return baseURL + path
+    }
+    
+    private var token: String? {
+        switch self {
+        default: return nil
+        }
+    }
+    
     var method: HTTPMethod {
         switch self {
         case .getGitHubRepos, .getNews: return .get
@@ -36,11 +46,22 @@ enum NetworkRouter {
     var parameters: Parameters? {
         switch self {
         case .getGitHubRepos: return nil
-        case .getNews: return nil
+        case .getNews(let request):
+            return request?.dictionary
         }
     }
     
-    var url: String {
-        return baseURL + path
+    var encoding: ParameterEncoding {
+        switch self {
+        default: return JSONEncoding.default
+        }
+    }
+    
+    var headers: HTTPHeaders {
+        switch self {
+        default:
+            return HTTPHeaders(["Content-Type": "application/json",
+                                "Authorization": "Bearer \(token ?? "")"])
+        }
     }
 }

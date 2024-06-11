@@ -15,6 +15,16 @@ extension UIColor {
     // MARK: NavigationBar
     static let navbarBGColor    = UIColor.secondaryColor
     static let navbarItemsColor = UIColor.primaryColor
+    
+    // MARK: Search
+    static let searchTFBGColor        = UIColor.secondaryColor
+    static let searchTFTextColor      = UIColor.primaryColor
+    static let searchButtonBGColor    = UIColor.secondaryColor
+    static let searchButtonTitleColor = UIColor.primaryColor
+    
+    // MARK: List
+    static let listCellBGColor   = UIColor.secondaryColor
+    static let listCellTextColor = UIColor.primaryColor
 }
 
 extension UIColor {

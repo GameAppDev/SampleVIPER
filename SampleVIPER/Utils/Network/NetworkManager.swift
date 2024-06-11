@@ -8,9 +8,6 @@
 import Foundation
 import Alamofire
 
-typealias Success<T: Codable> = (BaseResponse<T>) -> Void
-typealias Error = (BaseError) -> Void
-
 final class NetworkManager: Networkable {
     
     func fetch<T>(
