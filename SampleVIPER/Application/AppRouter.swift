@@ -21,7 +21,7 @@ open class AppRouter {
     // MARK: Public Methods
     func openApp() {
         setActiveNavigationController(
-            with: UIViewController()
+            with: SearchRouter.returnVC()
         )
     }
     

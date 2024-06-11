@@ -13,6 +13,13 @@
 		5C53AD472C1727B300922DCC /* SampleVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53AD462C1727B300922DCC /* SampleVIPERTests.swift */; };
 		5C53AD512C1727B300922DCC /* SampleVIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53AD502C1727B300922DCC /* SampleVIPERUITests.swift */; };
 		5C53AD532C1727B300922DCC /* SampleVIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C53AD522C1727B300922DCC /* SampleVIPERUITestsLaunchTests.swift */; };
+		5C5FEEF52C184081002C3A7A /* SearchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEEF42C184081002C3A7A /* SearchBuilder.swift */; };
+		5C5FEEF92C184097002C3A7A /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEEF82C184097002C3A7A /* SearchRouter.swift */; };
+		5C5FEEFB2C1840A5002C3A7A /* SearchContractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEEFA2C1840A5002C3A7A /* SearchContractor.swift */; };
+		5C5FEEFD2C1840B1002C3A7A /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEEFC2C1840B1002C3A7A /* SearchPresenter.swift */; };
+		5C5FEEFF2C1840BC002C3A7A /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEEFE2C1840BC002C3A7A /* SearchInteractor.swift */; };
+		5C5FEF022C1840C9002C3A7A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5FEF002C1840C9002C3A7A /* SearchViewController.swift */; };
+		5C5FEF032C1840C9002C3A7A /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C5FEF012C1840C9002C3A7A /* SearchViewController.xib */; };
 		5CA089282C172FB00092FEA9 /* AppDelegate+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089272C172FB00092FEA9 /* AppDelegate+Notifications.swift */; };
 		5CA0892A2C172FE70092FEA9 /* AppDelegate+ATT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089292C172FE70092FEA9 /* AppDelegate+ATT.swift */; };
 		5CA0892C2C172FFE0092FEA9 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0892B2C172FFE0092FEA9 /* AppRouter.swift */; };
@@ -29,6 +36,12 @@
 		5CA0895F2C1737400092FEA9 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0895E2C1737400092FEA9 /* UIView+Ext.swift */; };
 		5CA089612C1737690092FEA9 /* NSObject+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089602C1737690092FEA9 /* NSObject+Ext.swift */; };
 		5CA089632C1737970092FEA9 /* BaseContractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089622C1737970092FEA9 /* BaseContractor.swift */; };
+		5CA0896E2C173C4C0092FEA9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5CA0896D2C173C4C0092FEA9 /* Alamofire */; };
+		5CA089702C173C4C0092FEA9 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5CA0896F2C173C4C0092FEA9 /* AlamofireDynamic */; };
+		5CA089732C173C6F0092FEA9 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089722C173C6F0092FEA9 /* Networkable.swift */; };
+		5CA089752C173C800092FEA9 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089742C173C800092FEA9 /* NetworkRouter.swift */; };
+		5CA089772C173D1A0092FEA9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089762C173D1A0092FEA9 /* Models.swift */; };
+		5CA089792C173D440092FEA9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA089782C173D440092FEA9 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +72,13 @@
 		5C53AD4C2C1727B300922DCC /* SampleVIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleVIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C53AD502C1727B300922DCC /* SampleVIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVIPERUITests.swift; sourceTree = "<group>"; };
 		5C53AD522C1727B300922DCC /* SampleVIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C5FEEF42C184081002C3A7A /* SearchBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBuilder.swift; sourceTree = "<group>"; };
+		5C5FEEF82C184097002C3A7A /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		5C5FEEFA2C1840A5002C3A7A /* SearchContractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContractor.swift; sourceTree = "<group>"; };
+		5C5FEEFC2C1840B1002C3A7A /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		5C5FEEFE2C1840BC002C3A7A /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		5C5FEF002C1840C9002C3A7A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5C5FEF012C1840C9002C3A7A /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 		5CA089272C172FB00092FEA9 /* AppDelegate+Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Notifications.swift"; sourceTree = "<group>"; };
 		5CA089292C172FE70092FEA9 /* AppDelegate+ATT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+ATT.swift"; sourceTree = "<group>"; };
 		5CA0892B2C172FFE0092FEA9 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
@@ -75,6 +95,10 @@
 		5CA0895E2C1737400092FEA9 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		5CA089602C1737690092FEA9 /* NSObject+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Ext.swift"; sourceTree = "<group>"; };
 		5CA089622C1737970092FEA9 /* BaseContractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseContractor.swift; sourceTree = "<group>"; };
+		5CA089722C173C6F0092FEA9 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
+		5CA089742C173C800092FEA9 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		5CA089762C173D1A0092FEA9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5CA089782C173D440092FEA9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA0896E2C173C4C0092FEA9 /* Alamofire in Frameworks */,
+				5CA089702C173C4C0092FEA9 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				5CA089262C172F990092FEA9 /* Application */,
+				5C5FEEF12C182C73002C3A7A /* Modules */,
 				5CA0895A2C17363A0092FEA9 /* Utils */,
 				5CA089512C17341E0092FEA9 /* Commons */,
 				5CA0892E2C1730B10092FEA9 /* Theme */,
@@ -150,6 +177,36 @@
 				5C53AD522C1727B300922DCC /* SampleVIPERUITestsLaunchTests.swift */,
 			);
 			path = SampleVIPERUITests;
+			sourceTree = "<group>";
+		};
+		5C5FEEF12C182C73002C3A7A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5C5FEEF22C18402F002C3A7A /* Search */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5C5FEEF22C18402F002C3A7A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5C5FEEF32C184048002C3A7A /* Builder */,
+				5C5FEEFA2C1840A5002C3A7A /* SearchContractor.swift */,
+				5C5FEEF82C184097002C3A7A /* SearchRouter.swift */,
+				5C5FEEFC2C1840B1002C3A7A /* SearchPresenter.swift */,
+				5C5FEEFE2C1840BC002C3A7A /* SearchInteractor.swift */,
+				5C5FEF002C1840C9002C3A7A /* SearchViewController.swift */,
+				5C5FEF012C1840C9002C3A7A /* SearchViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		5C5FEEF32C184048002C3A7A /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				5C5FEEF42C184081002C3A7A /* SearchBuilder.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 		5CA089262C172F990092FEA9 /* Application */ = {
@@ -231,6 +288,7 @@
 		5CA0895A2C17363A0092FEA9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				5CA089712C173C5F0092FEA9 /* Network */,
 				5CA0895B2C17363F0092FEA9 /* Extensions */,
 			);
 			path = Utils;
@@ -244,6 +302,17 @@
 				5CA089602C1737690092FEA9 /* NSObject+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5CA089712C173C5F0092FEA9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5CA089782C173D440092FEA9 /* NetworkManager.swift */,
+				5CA089722C173C6F0092FEA9 /* Networkable.swift */,
+				5CA089742C173C800092FEA9 /* NetworkRouter.swift */,
+				5CA089762C173D1A0092FEA9 /* Models.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +331,10 @@
 			dependencies = (
 			);
 			name = SampleVIPER;
+			packageProductDependencies = (
+				5CA0896D2C173C4C0092FEA9 /* Alamofire */,
+				5CA0896F2C173C4C0092FEA9 /* AlamofireDynamic */,
+			);
 			productName = SampleVIPER;
 			productReference = 5C53AD2C2C1727B200922DCC /* SampleVIPER.app */;
 			productType = "com.apple.product-type.application";
@@ -334,6 +407,9 @@
 				Base,
 			);
 			mainGroup = 5C53AD232C1727B200922DCC;
+			packageReferences = (
+				5CA0896C2C173C4C0092FEA9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 5C53AD2D2C1727B200922DCC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -356,6 +432,7 @@
 				5C53AD392C1727B300922DCC /* Assets.xcassets in Resources */,
 				5CA089422C1730F50092FEA9 /* Roboto-Regular.ttf in Resources */,
 				5CA089552C1734490092FEA9 /* CustomNavigationBar.xib in Resources */,
+				5C5FEF032C1840C9002C3A7A /* SearchViewController.xib in Resources */,
 				5CA089402C1730F50092FEA9 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,16 +460,26 @@
 			files = (
 				5CA089612C1737690092FEA9 /* NSObject+Ext.swift in Sources */,
 				5CA089502C17339B0092FEA9 /* Fonts.swift in Sources */,
+				5C5FEEFD2C1840B1002C3A7A /* SearchPresenter.swift in Sources */,
 				5CA0892A2C172FE70092FEA9 /* AppDelegate+ATT.swift in Sources */,
+				5CA089732C173C6F0092FEA9 /* Networkable.swift in Sources */,
+				5CA089792C173D440092FEA9 /* NetworkManager.swift in Sources */,
+				5C5FEEFF2C1840BC002C3A7A /* SearchInteractor.swift in Sources */,
+				5C5FEEFB2C1840A5002C3A7A /* SearchContractor.swift in Sources */,
 				5CA0895F2C1737400092FEA9 /* UIView+Ext.swift in Sources */,
 				5CA0894C2C17335B0092FEA9 /* Colors.swift in Sources */,
 				5C53AD302C1727B200922DCC /* AppDelegate.swift in Sources */,
 				5CA0892C2C172FFE0092FEA9 /* AppRouter.swift in Sources */,
+				5C5FEF022C1840C9002C3A7A /* SearchViewController.swift in Sources */,
 				5CA089592C1735640092FEA9 /* BaseViewController.swift in Sources */,
+				5CA089772C173D1A0092FEA9 /* Models.swift in Sources */,
 				5CA089282C172FB00092FEA9 /* AppDelegate+Notifications.swift in Sources */,
 				5CA089632C1737970092FEA9 /* BaseContractor.swift in Sources */,
+				5C5FEEF52C184081002C3A7A /* SearchBuilder.swift in Sources */,
 				5CA089562C1734490092FEA9 /* CustomNavigationBar.swift in Sources */,
 				5CA0895D2C1736800092FEA9 /* UIViewController+Ext.swift in Sources */,
+				5C5FEEF92C184097002C3A7A /* SearchRouter.swift in Sources */,
+				5CA089752C173C800092FEA9 /* NetworkRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -731,6 +818,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5CA0896C2C173C4C0092FEA9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5CA0896D2C173C4C0092FEA9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CA0896C2C173C4C0092FEA9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5CA0896F2C173C4C0092FEA9 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CA0896C2C173C4C0092FEA9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C53AD242C1727B200922DCC /* Project object */;
 }
